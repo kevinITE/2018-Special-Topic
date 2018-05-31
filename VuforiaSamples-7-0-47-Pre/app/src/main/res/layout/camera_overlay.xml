@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar"
+            android:id="@+id/loading_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_inst_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_arrow_back_black_24dp"
+        android:background="@color/white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtView_inst"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/tv_dist"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="67dp"
+        android:text="Instruction"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_pre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/transparent" />
+
+    <TextView
+        android:id="@+id/tv_dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtView_inst"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/white"
+        android:text="Distance"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":600,"versionName":"6.0","enabled":true,"outputFile":"VuforiaSamples-7-0-47-Pre-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.vuforia.samples.VuforiaSamples","split":"","minSdkVersion":"19"}}]

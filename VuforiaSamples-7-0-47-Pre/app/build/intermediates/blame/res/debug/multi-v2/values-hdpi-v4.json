@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Tony\\AppData\\Local\\Android\\vuforia-sdk-android-7-0-47\\samples\\VuforiaSamples-7-0-47-Pre\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tony\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\95f864c0528bc3c356bebf9dc0f9ba6e\\res\\values-hdpi\\values-hdpi.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "297",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "567"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "154",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tony\\AppData\\Local\\Android\\vuforia-sdk-android-7-0-47\\samples\\VuforiaSamples-7-0-47-Pre\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,105",
+                        "endColumns": "48,49",
+                        "endOffsets": "100,150"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,49",
+                        "endOffsets": "99,149"
+                    }
+                }
+            ]
+        }
+    ]
+}
