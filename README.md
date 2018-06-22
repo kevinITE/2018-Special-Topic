@@ -1,4 +1,4 @@
-# 2018-Term-project
+# 2018-Special-Topic
 
 Navigate by Google maps direction API, but you can keep your camera on. And Estimote iBeacon will display something surpise on your way.
 
